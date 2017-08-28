@@ -1,6 +1,13 @@
 # Simple-Substitution
 A regular expression CTF challenge for CrikeyCon 2018
 
+# Challenge
+```
+\w*?(p).*([a])[^l]*(l)[a-zA-Z\d]*?(a)({)\w*?(o).+([W-w])(h)[^f]+(f).*
+LZckWnfFS0NyHyjMpObY0aLi:cVJVcVZkWnfFS0NvlQNiyZa{NVCHJ6zWPPI5KXxGZyUo55ywhR8LzVm4KM92kSfi}fzQHpjMpOb0ii?
+```
+## Example
+https://regex101.com/r/l1i0Bs/1
 ## Search
 ```
 \w*?(p).*([a])[^l]*(l)[a-zA-Z\d]*?(a)({)\w*?(o).+([W-w])(h)[^f]+(f).*
